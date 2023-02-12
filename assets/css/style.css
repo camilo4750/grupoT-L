@@ -1,0 +1,291 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,600;1,100;1,500&display=swap");
+
+.text-typography-400 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.text-typography-500 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.text-typography-600 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.text-typography-700 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.text-line-30 {
+  line-height: 30px;
+}
+
+.text-size-14 {
+  font-size: 14px;
+}
+
+.text-size-18 {
+  font-size: 18px;
+}
+
+.text-size-20 {
+  font-size: 20px;
+}
+
+.text-size-22 {
+  font-size: 22px;
+}
+
+.text-size-24 {
+  font-size: 24px;
+}
+
+.text-size-26 {
+  font-size: 26px;
+}
+
+.text-size-28 {
+  font-size: 28px;
+}
+
+.text-size-68 {
+  font-size: calc(1.625rem + 4vw);
+}
+
+.text-size-58 {
+  font-size: calc(1.25rem + 4vw);
+}
+
+.text-size-38 {
+  font-size: calc(1.2rem + 1vw);
+}
+
+.bg-color-1 {
+  background-color: #993d15;
+}
+
+.bg-color-2 {
+  background-color: #6c17a3;
+}
+
+.bg-color-3 {
+  background-color: #1b7d8c;
+}
+
+.bg-color-4 {
+  background-color: #5fa317;
+}
+
+.bg-color-5 {
+  background-color: #e08401;
+}
+
+.text-color-1 {
+  color: #993d15;
+}
+
+.text-color-2 {
+  color: #6c17a3;
+}
+
+.text-color-3 {
+  color: #1b7d8c;
+}
+
+.text-color-4 {
+  color: #5fa317;
+}
+
+.text-color-5 {
+  color: #e08401;
+}
+
+.top-nav {
+  background-color: #51ccb7;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.top-nav p {
+  margin-bottom: 0;
+  display: inline-block;
+  margin-right: 16px;
+}
+
+.header {
+  background: rgba(255, 255, 255, 0.902);
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 5px 0;
+  margin-top: 25px;
+}
+
+.nav-link {
+  color: #1b7c8b !important;
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: rgb(0, 130, 236) !important;
+}
+
+.owl-prev,
+.owl-next {
+  position: absolute;
+  top: 50%;
+  font-size: 60px !important;
+  font-weight: 700 !important;
+  color: #ffffff !important;
+}
+
+.owl-prev {
+  left: 0;
+}
+
+.owl-next {
+  right: 0;
+}
+
+.owl-prev:hover,
+.owl-next:hover {
+  background-color: transparent !important;
+}
+
+.slide1 {
+  background: linear-gradient(rgba(9, 32, 50, 0.503), rgba(9, 32, 50, 0.503)),
+    url(../img/fond_1.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.slide2 {
+  background: linear-gradient(rgba(9, 32, 50, 0.403), rgba(9, 32, 50, 0.403)),
+    url(../img/fond_2.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.card-news {
+  position: relative;
+  width: 95%;
+  height: 400px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+  border: 1px solid #993d15;
+}
+
+.card-news span {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.card-news span::before {
+  content: "";
+  position: absolute;
+  width: 150%;
+  height: 40px;
+  background: #e08401;
+  transform: rotate(-45deg) translateY(-20px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-news span::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  background: #e08401;
+  z-index: -1;
+  box-shadow: 140px -140px #e08401;
+  /*150px -10 = 140*/
+}
+
+.card-news-2 {
+  position: relative;
+  width: 95%;
+  height: 400px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+  border: 1.5px solid #993d15;
+}
+
+.card-news-2 span {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.card-news-2 span::before {
+  content: "";
+  position: absolute;
+  width: 150%;
+  height: 40px;
+  background: #e08401;
+  transform: rotate(45deg) translateY(-20px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-news-2 span::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  background: #e08401;
+  z-index: -1;
+  box-shadow: -140px -140px #e08401;
+  /*150px -10 = 140*/
+}
+
+#milestone {
+  background: linear-gradient(rgba(27, 125, 140, 0.8), rgba(27, 125, 140, 0.8)),
+    url(../img/fond_3.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.bg-cover {
+  background-position: center !important;
+  background-size: cover !important;
+  background-position: center;
+}
+
+#milestone .fs-2,
+#milestone p {
+  color: #ffffff;
+}
+
+#topbar .contact-info {
+  color: #ffff;
+}
+@media (max-width: 600px) {
+  .facet_sidebar {
+    display: none;
+  }
+}
+
+@media (max-width: 750px) {
+}
