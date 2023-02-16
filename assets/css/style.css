@@ -77,7 +77,7 @@
 }
 
 .bg-color-4 {
-  background-color: #5fa317;
+  background-color: #1b8c7f;
 }
 
 .bg-color-5 {
@@ -170,6 +170,15 @@
   background-position: center center;
 }
 
+h2::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 4px;
+  background: #1b8c7f;
+  margin: 0;
+}
+
 .card-news {
   position: relative;
   width: 95%;
@@ -177,7 +186,7 @@
   background: #fff;
   border-radius: 20px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
-  border: 1px solid #993d15;
+  border: 1px solid #e08401;
 }
 
 .card-news span {
@@ -197,7 +206,7 @@
   position: absolute;
   width: 150%;
   height: 40px;
-  background: #e08401;
+  background: #1b8c7f;
   transform: rotate(-45deg) translateY(-20px);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
@@ -209,9 +218,9 @@
   left: 0;
   width: 10px;
   height: 10px;
-  background: #e08401;
+  background: #1b8c7f;
   z-index: -1;
-  box-shadow: 140px -140px #e08401;
+  box-shadow: 140px -140px #1b8c7f;
   /*150px -10 = 140*/
 }
 
@@ -222,7 +231,7 @@
   background: #fff;
   border-radius: 20px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
-  border: 1.5px solid #993d15;
+  border: 1.5px solid #e08401;
 }
 
 .card-news-2 span {
@@ -242,7 +251,7 @@
   position: absolute;
   width: 150%;
   height: 40px;
-  background: #e08401;
+  background: #1b8c7f;
   transform: rotate(45deg) translateY(-20px);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
@@ -254,9 +263,9 @@
   right: 0;
   width: 10px;
   height: 10px;
-  background: #e08401;
+  background: #1b8c7f;
   z-index: -1;
-  box-shadow: -140px -140px #e08401;
+  box-shadow: -140px -140px #1b8c7f;
   /*150px -10 = 140*/
 }
 
@@ -299,6 +308,27 @@
   order: 0;
 }
 
+.order-ubi-2 {
+  order: 1;
+}
+
+.order-ubi-3 {
+  order: 0;
+}
+
+.ir-arriba {
+  display: none;
+  padding: 8px;
+  font-size: 20px;
+  background: #1b8c7f;
+  color: #ffffff;
+  cursor: pointer;
+  position: fixed;
+  bottom: 15px;
+  right: 20px;
+  border-radius: 300px;
+}
+
 #milestone .fs-2,
 #milestone p {
   color: #ffffff;
@@ -326,5 +356,13 @@
   .order-ubi-0 {
     order: 1;
     margin-top: 20px;
+  }
+
+  .order-ubi-2 {
+    padding-bottom: 20px;
+  }
+
+  .order-ubi-3 {
+    padding-bottom: 20px;
   }
 }
