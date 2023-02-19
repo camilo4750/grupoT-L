@@ -158,14 +158,14 @@
 
 .slide1 {
   background: linear-gradient(rgba(9, 32, 50, 0.503), rgba(9, 32, 50, 0.503)),
-    url(../img/fond_1.jpg);
+    url(../img/grupotyl_fond_1.jpg);
   background-size: cover;
   background-position: center center;
 }
 
 .slide2 {
   background: linear-gradient(rgba(9, 32, 50, 0.403), rgba(9, 32, 50, 0.403)),
-    url(../img/fond_2.jpg);
+    url(../img/grupotyl_fond_2.jpg);
   background-size: cover;
   background-position: center center;
 }
@@ -271,21 +271,21 @@ h2::after {
 
 #milestone {
   background: linear-gradient(rgba(27, 125, 140, 0.8), rgba(27, 125, 140, 0.8)),
-    url(../img/5.jpg);
+    url(../img/grupotyl_1.jpg);
   background-size: cover;
   background-position: center center;
 }
 
 #milestone2 {
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
-    url(../img/13.jpg);
+    url(../img/grupotyl_2.jpg);
   background-size: cover;
   background-position: center center;
 }
 
 #milestone3 {
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
-    url(../img/14.jpg);
+    url(../img/grupotyl_3.jpg);
   background-size: cover;
   background-position: center center;
 }
@@ -337,6 +337,18 @@ h2::after {
 #topbar .contact-info {
   color: #ffff;
 }
+
+.padding-news {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+@media (max-width: 1010px) {
+  .padding-info {
+    padding: 1rem;
+  }
+}
+
 @media (max-width: 600px) {
   .facet_sidebar {
     display: none;
@@ -364,5 +376,18 @@ h2::after {
 
   .order-ubi-3 {
     padding-bottom: 20px;
+  }
+
+  .padding-news {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .card-news {
+    height: 500px;
+  }
+
+  .card-news-2 {
+    height: 500px;
   }
 }
