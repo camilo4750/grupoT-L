@@ -343,9 +343,16 @@ h2::after {
   padding-right: 3rem;
 }
 
-@media (max-width: 1010px) {
+@media (max-width: 1200px) {
   .padding-info {
     padding: 1rem;
+  }
+  .card-news {
+    height: 450px;
+  }
+
+  .card-news-2 {
+    height: 450px;
   }
 }
 
@@ -384,10 +391,10 @@ h2::after {
   }
 
   .card-news {
-    height: 500px;
+    height: 540px;
   }
 
   .card-news-2 {
-    height: 500px;
+    height: 540px;
   }
 }
