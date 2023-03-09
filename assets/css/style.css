@@ -178,11 +178,38 @@ html {
 h2::after {
   content: "";
   display: block;
-  width: 100px;
-  height: 4px;
-  background: #1b8c7f;
+  width: 130px;
+  height: 5px;
+  background:linear-gradient(90deg, #e08401,#5fa317,  #1b8c7f);
+  animation: animate 20s linear infinite;
+  background-size: 200%;
   margin: 0;
 }
+
+
+h2::before {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 5px;
+  background:linear-gradient(90deg, #e08401,#5fa317, #1b8c7f);
+  animation: animate 20s linear infinite;
+  background-size: 200%;
+  margin: 0;
+  filter: blur(20px);
+}
+
+@keyframes animate {
+  0%
+  {
+    background-position: 0 0;
+  }
+  0%
+  {
+    background-position: 500% 0;
+  }
+}
+
 
 .card-news {
   position: relative;
@@ -192,6 +219,7 @@ h2::after {
   border-radius: 20px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
   border: 1px solid #e08401;
+
 }
 
 .card-news span {
