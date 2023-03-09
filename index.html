@@ -472,7 +472,8 @@
 <script src="js/script.js"></script>
 <script src="js/scrollreveal.js"></script>
 <script>
-    window.sr = ScrollReveal();
+    setTimeout(function(){
+        window.sr = ScrollReveal();
     sr.reveal('.reveal-top', {
         origin : 'top',
         duration: 1200,
@@ -485,6 +486,8 @@
         distance : '50px',
         easing   : 'ease-in-out',
     });
+    }, 1000)
+   
 </script>
 
 </html>
