@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="assets/css/all.min.css">
     <link rel="stylesheet" href="assets/css/owl.carousel.css">
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="assets/css/aos.css">
     <title>GRUPO T&L ASOCIADOS SAS</title>
 </head>
 
@@ -111,7 +110,7 @@
             <div class="row">
                 <h2 class="mb-4 mt-2 text-typography-700">Noticias</h2>
                 <div class="col-md-12 col-lg-7 d-flex justify-content-center">
-                    <div class="card-news my-4 d-flex flex-column justify-content-center align-items-center" data-aos="fade-right">
+                    <div class="reveal-left card-news my-4 d-flex flex-column justify-content-center align-items-center">
                         <span></span>
                         <i class="fas fa-hat-hard mb-3" style="font-size: 50px;"></i>
                         <h3 class="text-center mb-2">NUESTRO SELLO</h3>
@@ -124,7 +123,7 @@
                     </div>
                 </div>
                 <div class="col-md-12 col-lg-5 d-flex justify-content-center">
-                    <div class="card-news-2 my-4 d-flex flex-column justify-content-center align-items-center" data-aos="fade-left">
+                    <div class="reveal-right card-news-2 my-4 d-flex flex-column justify-content-center align-items-center">
                         <span></span>
                         <i class="fas fa-hat-hard mb-3" style="font-size: 50px;"></i>
                         <h3 class="text-center mb-2">PROYECCION</h3>
@@ -137,7 +136,7 @@
                     </div>
                 </div>
                 <div class="col-md-12 col-lg-5 d-flex justify-content-center">
-                    <div class="card-news my-4 d-flex flex-column justify-content-center align-items-center" data-aos="fade-right">
+                    <div class="reveal-left card-news my-4 d-flex flex-column justify-content-center align-items-center">
                         <span></span>
                         <i class="fas fa-hat-hard mb-3" style="font-size: 50px;"></i>
                         <h3 class="text-center mb-2">CRECIMIENTO DE LA REGION</h3>
@@ -150,7 +149,7 @@
                     </div>
                 </div>
                 <div class="col-md-12 col-lg-7 d-flex justify-content-center">
-                    <div class="card-news-2 my-4 d-flex flex-column justify-content-center align-items-center" data-aos="fade-left">
+                    <div class="reveal-right card-news-2 my-4 d-flex flex-column justify-content-center align-items-center">
                         <span></span>
                         <i class="fas fa-hat-hard mb-3" style="font-size: 50px;"></i>
                         <h3 class="text-center mb-2">MINERIA CON PROPOSITO</h3>
@@ -164,7 +163,7 @@
                     </div>
                 </div>
                 <div class="col-md-12 d-flex justify-content-center">
-                    <div class="card-news my-4 d-flex flex-column justify-content-center align-items-center" data-aos="fade-right">
+                    <div class="reveal-left card-news my-4 d-flex flex-column justify-content-center align-items-center" >
                         <span></span>
 
                         <i class="fas fa-hat-hard mb-3" style="font-size: 50px;"></i>
@@ -466,17 +465,26 @@
         </div>
     </footer>
 </body>
-
 <script src="js/jquery-3.6.0.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/all.min.js"></script>
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/script.js"></script>
-<script src="js/aos.js"></script>
-
+<script src="js/scrollreveal.js"></script>
 <script>
-    AOS.init({
-        duration: 1000,
+    window.sr = ScrollReveal();
+    sr.reveal('.reveal-left', {
+        origin : 'left',
+        duration: 1200,
+        distance : '50px',
+        easing   : 'ease-in-out',
     });
-  </script>
+    sr.reveal('.reveal-right', {
+        origin : 'right',
+        duration: 1200,
+        distance : '50px',
+        easing   : 'ease-in-out',
+    });
+</script>
+
 </html>
