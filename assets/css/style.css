@@ -218,7 +218,7 @@ h2::before {
   background: #fff;
   border-radius: 20px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
-  border: 1px solid #e08401;
+  border: 2px solid #e08401;
 
 }
 
@@ -268,7 +268,7 @@ h2::before {
   background: #fff;
   border-radius: 20px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
-  border: 1.5px solid #e08401;
+  border: 2px solid #e08401;
 }
 
 .card-news-2:hover {
@@ -313,7 +313,6 @@ h2::before {
 #milestone {
   background: linear-gradient(rgba(27, 125, 140, 0.8), rgba(27, 125, 140, 0.8)),
     url(../img/grupotyl_1.jpg);
-  background-size: cover;
   background-position: center center;
 }
 
@@ -505,7 +504,7 @@ footer .wave#wave2
   width: 80%;
   height: 500px;
   background: #000;
-  box-shadow: 0 30px 30px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
 }
 
 .box .imgBox {
@@ -538,10 +537,10 @@ footer .wave#wave2
   left: 10%;
   width: 80%;
   height: 60px;
-  background: #fff;
+  background: linear-gradient(to bottom left, #7c7a7a 50%, #1b8c7f 50%);
   transition: 0.5s;
   overflow: hidden;
-
+  color: #fff;
 
   padding: 15px;
   box-sizing: border-box;
@@ -560,9 +559,6 @@ footer .wave#wave2
 }
 
 @media (max-width: 1200px) {
-  .padding-info {
-    padding: 1rem;
-  }
   .card-news {
     height: 450px;
   }
@@ -580,8 +576,8 @@ footer .wave#wave2
 
 @media (max-width: 750px) {
   .padding-info {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   .order-ubi-1 {
@@ -617,6 +613,6 @@ footer .wave#wave2
 
   .box {
     width: 100%;
-    margin-top: 20px;
+    margin-top: 50px;
   }
 }
