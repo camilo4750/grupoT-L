@@ -3,6 +3,14 @@
 html {
   scroll-behavior: smooth;
   scroll-padding: 7rem;
+
+}
+
+body {
+  background-image:  url(../img/fond.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
 }
 
 .text-typography-400 {
