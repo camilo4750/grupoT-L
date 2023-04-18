@@ -7,7 +7,7 @@ $(document).ready(function () {
     dots: false,
     smartSpeed: 1000,
     autoplay: true,
-    autoplayTimeout: 4000,
+    autoplayTimeout: 5000,
     autoplayHoverPause: true,
     responsive: {
       0: {
@@ -52,4 +52,3 @@ $(document).ready(function () {
     }
   });
 });
-

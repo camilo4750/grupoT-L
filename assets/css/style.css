@@ -3,11 +3,10 @@
 html {
   scroll-behavior: smooth;
   scroll-padding: 7rem;
-
 }
 
 body {
-  background-image:  url(../img/fond.svg);
+  background-image: url(../img/grupotyl_asociados_fond.svg);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
@@ -171,14 +170,14 @@ body {
 
 .slide1 {
   background: linear-gradient(rgba(9, 32, 50, 0.503), rgba(9, 32, 50, 0.503)),
-    url(../img/grupotyl_fond_1.jpg);
+    url(../img/grupotyl_asociados_fond_1.jpg);
   background-size: cover;
   background-position: center center;
 }
 
 .slide2 {
   background: linear-gradient(rgba(9, 32, 50, 0.403), rgba(9, 32, 50, 0.403)),
-    url(../img/grupotyl_fond_2.jpg);
+    url(../img/grupotyl_asociados_fond_2.jpg);
   background-size: cover;
   background-position: center center;
 }
@@ -188,19 +187,18 @@ h3::after {
   display: block;
   width: 130px;
   height: 5px;
-  background:linear-gradient(90deg, #e08401,#5fa317,  #1b8c7f);
+  background: linear-gradient(90deg, #e08401, #5fa317, #1b8c7f);
   animation: animate 20s linear infinite;
   background-size: 200%;
   margin: 0;
 }
-
 
 h3::before {
   content: "";
   display: block;
   width: 130px;
   height: 5px;
-  background:linear-gradient(90deg, #e08401,#5fa317, #1b8c7f);
+  background: linear-gradient(90deg, #e08401, #5fa317, #1b8c7f);
   animation: animate 20s linear infinite;
   background-size: 200%;
   margin: 0;
@@ -208,16 +206,13 @@ h3::before {
 }
 
 @keyframes animate {
-  0%
-  {
+  0% {
     background-position: 0 0;
   }
-  0%
-  {
+  0% {
     background-position: 500% 0;
   }
 }
-
 
 .card-news {
   position: relative;
@@ -227,7 +222,6 @@ h3::before {
   border-radius: 20px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
   border: 2px solid #e08401;
-
 }
 
 .card-news:hover {
@@ -320,21 +314,7 @@ h3::before {
 
 #milestone {
   background: linear-gradient(rgba(27, 125, 140, 0.8), rgba(27, 125, 140, 0.8)),
-    url(../img/grupotyl_1.jpg);
-  background-position: center center;
-}
-
-#milestone2 {
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
-    url(../img/grupotyl_2.jpg);
-  background-size: cover;
-  background-position: center center;
-}
-
-#milestone3 {
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
-    url(../img/grupotyl_3.jpg);
-  background-size: cover;
+    url(../img/grupotyl_asociados_1.jpg);
   background-position: center center;
 }
 
@@ -418,8 +398,7 @@ footer .menu li {
   list-style: none;
 }
 
-footer .social-icon li a
-{
+footer .social-icon li a {
   font-size: 2em;
   color: #fff;
   margin: 0 10px;
@@ -431,8 +410,7 @@ footer .social-icon li a:hover {
   transform: translateY(1opx);
 }
 
-footer .menu li a
-{
+footer .menu li a {
   font-size: 1.2em;
   color: #fff;
   margin: 0 10px;
@@ -442,12 +420,11 @@ footer .menu li a
   opacity: 0.75;
 }
 
-footer .menu li a:hover
-{
+footer .menu li a:hover {
   opacity: 1;
 }
 
-footer p  {
+footer p {
   color: #fff;
   text-align: center;
   margin-top: 15px;
@@ -455,57 +432,47 @@ footer p  {
   font-size: 1.1em;
 }
 
-footer .wave
-{
+footer .wave {
   position: absolute;
   top: -100px;
   left: 0;
   width: 100%;
   height: 100px;
-  background: url(../img/wave.png);
+  background: url(../img/grupotyl_wave.png);
   background-size: 900px 100px;
 }
 
-footer .wave#wave1
-{
+footer .wave#wave1 {
   z-index: 1000;
   opacity: 1;
   bottom: 0;
   animation: animateWave 4s linear infinite;
 }
 
-@keyframes animateWave
-{
-   0% 
-   {
+@keyframes animateWave {
+  0% {
     background-position-x: 900px;
-   }
-   100%
-   {
+  }
+  100% {
     background-position-x: 0px;
-   }
+  }
 }
 
-footer .wave#wave2
-{
+footer .wave#wave2 {
   z-index: 999;
   opacity: 0.5;
   bottom: 10px;
   animation: animateWave_02 4s linear infinite;
 }
 
-@keyframes animateWave_02
-{
-   0% 
-   {
+@keyframes animateWave_02 {
+  0% {
     background-position-x: 0px;
-   }
-   100%
-   {
+  }
+  100% {
     background-position-x: 900px;
-   }
+  }
 }
-
 
 .box {
   position: relative;
@@ -533,13 +500,11 @@ footer .wave#wave2
   transition: 0.5s;
 }
 
-.box:hover .imgBox img 
-{
+.box:hover .imgBox img {
   opacity: 0;
 }
 
-.box .content
-{
+.box .content {
   position: absolute;
   bottom: 20px;
   left: 10%;
@@ -554,8 +519,7 @@ footer .wave#wave2
   box-sizing: border-box;
 }
 
-.box:hover .content
-{
+.box:hover .content {
   width: 100%;
   height: 100%;
   bottom: 0;
