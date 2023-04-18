@@ -183,7 +183,7 @@ body {
   background-position: center center;
 }
 
-h2::after {
+h3::after {
   content: "";
   display: block;
   width: 130px;
@@ -195,7 +195,7 @@ h2::after {
 }
 
 
-h2::before {
+h3::before {
   content: "";
   display: block;
   width: 130px;

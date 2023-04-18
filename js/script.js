@@ -38,9 +38,9 @@ $(document).ready(function () {
 
   $(window).scroll(function () {
     if ($(document).scrollTop() > 300) {
-      $("#menu").css("background-color", "#ffffff");
+      $("#grupotyl-asociados-menu").css("background-color", "#ffffff");
     } else {
-      $("#menu").css("background-color", "#ffffffe6");
+      $("#grupotyl-asociados-menu").css("background-color", "#ffffffe6");
     }
   });
 
